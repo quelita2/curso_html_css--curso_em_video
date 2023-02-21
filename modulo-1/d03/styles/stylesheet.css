@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mynerve', cursive;
+}
+
+body, main, header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    height: 90vh;
+    width: 100vw;
+    background-color: #66c6ec;
+}
+
+main {
+    width: 600px;
+    max-width: 68vw;
+}
+
+header .info--title {
+    text-transform: capitalize;
+    margin: 1rem ;
+}
+
+footer .info--subtitle {
+    text-align: center;
+    font-weight: 400;
+}
